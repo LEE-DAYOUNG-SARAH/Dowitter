@@ -1,6 +1,8 @@
 # Dowitter
 Spring Web MVC구조를 기반으로 타임라인 형식의 게시판 구현
 
+[Notion 정리](https://concise-egg-b27.notion.site/Dowitter-69360ebd8c4e459d9efc7f5564752fc6)
+
 ## 개발 환경 설정
 * Spring Framework 4.2.4
 * Mysql 5.1.46
