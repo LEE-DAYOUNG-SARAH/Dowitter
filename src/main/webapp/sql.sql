@@ -1,0 +1,19 @@
+DROP TABLE users;
+DROP TABLE docs;
+
+CREATE TABLE users (
+	id		VARCHAR(20)		PRIMARY KEY,
+	pw		CHAR(20)		NOT NULL
+);
+
+CREATE TABLE docs (
+	num		INT				PRIMARY KEY		AUTO_INCREMENT,
+	id		VARCHAR(20)		NOT NULL,
+	content	TEXT			NOT NULL,
+	date		CHAR(50)		NOT NULL,
+	
+	FOREIGN KEY(id)	REFERENCES users(id)
+		ON DELETE CASCADE
+);
+
+
